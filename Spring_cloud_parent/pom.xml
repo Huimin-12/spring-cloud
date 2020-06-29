@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>eureka_provider</module>
-        <module>eureka_consumer</module>
+        <module>eureake_provider</module>
+        <module>eureake_consumer</module>
         <module>eureka_server</module>
     </modules>
 
