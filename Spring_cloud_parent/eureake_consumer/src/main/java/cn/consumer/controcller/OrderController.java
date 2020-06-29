@@ -21,7 +21,8 @@ public class OrderController {
     private RestTemplateConfig restTemplateConfig;
     @Autowired
     private DiscoveryClient discoveryClient;
-
+    @Autowired
+    private RestTemplate restTemplate;
     @GetMapping("/findOrder/{id}")
     public Goos findOrderById(@PathVariable("id") int id){
         System.out.println("findOrderById,,,被访问");
@@ -49,12 +50,13 @@ public class OrderController {
         System.out.println(host+":::"+port);
         String url = "http://"+host+":"+port+"/goos/findOne/1";
         //3、调用方法
-        Goos goos = restTemplateConfig.restTemplate().getForObject(url, Goos.class);
+        //Goos goos = restTemplateConfig.restTemplate().getForObject(url, Goos.class);
+        Goos goos = restTemplate.getForObject(url, Goos.class);
         return goos;
     }
     @GetMapping("/findOrder2/{id}")
     public Goos findOrderById2(@PathVariable("id") int id){
-        System.out.println("findOrderById,,,被访问");
+        System.out.println("findOrderById22222222,,,被访问");
         /*  远程调用Goos服务方方法 findOne
            使用 RestTemplate
            1、创建ResTemplate Bean
