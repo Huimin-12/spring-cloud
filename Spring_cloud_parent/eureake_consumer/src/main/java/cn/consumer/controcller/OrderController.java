@@ -1,9 +1,8 @@
 package cn.consumer.controcller;
 
 import cn.consumer.domain.Goos;
-import cn.consumer.resttemplate.RestTemplateConfig;
+import cn.consumer.config.RestTemplateConfig;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
