@@ -3,6 +3,7 @@ package cn.consumer.controcller;
 import cn.consumer.domain.Goos;
 import cn.consumer.resttemplate.RestTemplateConfig;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -48,10 +49,10 @@ public class OrderController {
         String host = instance.getHost();//获取ip
         int port = instance.getPort();//获取端口
         System.out.println(host+":::"+port);
-        String url = "http://"+host+":"+port+"/goos/findOne/1";
+        String url = "http://"+host+":"+port+"/goos/findOne/"+id;
         //3、调用方法
-        //Goos goos = restTemplateConfig.restTemplate().getForObject(url, Goos.class);
-        Goos goos = restTemplate.getForObject(url, Goos.class);
+        Goos goos = restTemplateConfig.restTemplate().getForObject(url, Goos.class);
+        //Goos goos = restTemplate.getForObject(url, Goos.class);
         return goos;
     }
     @GetMapping("/findOrder2/{id}")
@@ -63,9 +64,9 @@ public class OrderController {
            2、注入Bean
            3、调用方法
          */
-        String url = "http://EUREKA_PROVIDER/goos/findOne/1";
+        String url = "http://EUREKA-PROVIDER/goos/findOne/"+id;
         //3、调用方法
-        Goos goos = restTemplateConfig.restTemplate().getForObject(url, Goos.class);
+        Goos goos = restTemplate.getForObject(url, Goos.class);
         return goos;
     }
 }

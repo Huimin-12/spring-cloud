@@ -11,4 +11,4 @@ eureka:
 
 spring:
   application:
-    name: eureka_provider
+    name: eureka-provider
