@@ -1,0 +1,7 @@
+cn\consumer\feign\GoosFeignClient.class
+cn\consumer\controcller\OrderController.class
+cn\consumer\config\RestTemplateConfig.class
+cn\consumer\domain\Goos.class
+cn\consumer\feign\GoosFeignClientFall.class
+cn\consumer\ConSumerApp.class
+cn\consumer\config\LoggerConfig.class

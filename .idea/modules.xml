@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/Spring_cloud_parent.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/Spring_cloud_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_feign/api_gateway-server/api_gateway-server.iml" filepath="$PROJECT_DIR$/spring_feign/api_gateway-server/api_gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_consumer/eureake_consumer.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureake_consumer/eureake_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_provider/eureake_provider.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureake_provider/eureake_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server1/eureka_server1.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureka_server1/eureka_server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server2/eureka_server2.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureka_server2/eureka_server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_feign/feign_consumer/feign_consumer.iml" filepath="$PROJECT_DIR$/spring_feign/feign_consumer/feign_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_feign/feign_provider/feign_provider.iml" filepath="$PROJECT_DIR$/spring_feign/feign_provider/feign_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_feign/feign_server/feign_server.iml" filepath="$PROJECT_DIR$/spring_feign/feign_server/feign_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_feign/spring_feign.iml" filepath="$PROJECT_DIR$/spring_feign/spring_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_feign/spring_feign1.iml" filepath="$PROJECT_DIR$/spring_feign/spring_feign1.iml" />
+    </modules>
+  </component>
+</project>

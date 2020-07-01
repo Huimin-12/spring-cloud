@@ -1,0 +1,5 @@
+cn\provider\dao\GoosDao.class
+cn\provider\controller\GoosController.class
+cn\provider\service\GoosService.class
+cn\provider\domain\Goos.class
+cn\provider\PoriderApp.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_feign/api_gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_feign/feign_consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_feign/feign_provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_feign/feign_server/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka_server2" />
+        <module name="eureka_server" />
+        <module name="spring_feign1" />
+        <module name="eureake_consumer" />
+        <module name="eureka_server1" />
+        <module name="eureka_provider" />
+        <module name="feign_server" />
+        <module name="eureake_provider" />
+        <module name="feign_provider" />
+        <module name="eureka_consumer" />
+        <module name="feign_consumer" />
+        <module name="api_gateway-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api_gateway-server" target="1.8" />
+      <module name="eureake_consumer" target="1.8" />
+      <module name="eureake_provider" target="1.8" />
+      <module name="eureka_consumer" target="1.8" />
+      <module name="eureka_provider" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="eureka_server1" target="1.8" />
+      <module name="eureka_server2" target="1.8" />
+      <module name="feign_consumer" target="1.8" />
+      <module name="feign_provider" target="1.8" />
+      <module name="feign_server" target="1.8" />
+      <module name="Spring_cloud_parent" target="1.8" />
+      <module name="spring_feign" target="1.8" />
+      <module name="spring_feign1" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_gateway-server" options="-parameters" />
+      <module name="eureake_consumer" options="-parameters" />
+      <module name="eureake_provider" options="-parameters" />
+      <module name="eureka_consumer" options="-parameters" />
+      <module name="eureka_provider" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="eureka_server1" options="-parameters" />
+      <module name="eureka_server2" options="-parameters" />
+      <module name="feign_consumer" options="-parameters" />
+      <module name="feign_provider" options="-parameters" />
+      <module name="feign_server" options="-parameters" />
+    </option>
+  </component>
+</project>
