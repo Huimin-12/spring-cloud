@@ -1,0 +1,4 @@
+cn\consumer\ConSumerApp.class
+cn\consumer\resttemplate\RestTemplateConfig.class
+cn\consumer\controcller\OrderController.class
+cn\consumer\domain\Goos.class
