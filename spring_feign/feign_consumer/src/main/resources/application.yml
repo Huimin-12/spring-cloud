@@ -11,7 +11,7 @@ eureka:
 # eureka 应用名称
 spring:
   application:
-    name: eureka_consumer
+    name: eureka-consumer
 
   #日志记录
 logging:

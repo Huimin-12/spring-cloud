@@ -12,6 +12,20 @@ cloud:
       # 转发规则
     routes:
       - id: eureka-provider
-        uri: http://localhost:8000/
+        #静态获取路由
+        #uri:http://localhost:8000/
+        #动态获取路由
+        uri: lb//EUREKA-PROVIDER
         predicates:
-          -Path:/goos/**
+        - Path=/goos/**
+
+      - id: eureka-consumer
+          uri: lb//EUREKA-CONSUMER
+          predicates:
+            - Path=/order/**
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -5,6 +5,7 @@ spring:
   application:
     name: api-gateway-server
 
+
 cloud:
     # 路由配置
   gateway:
@@ -13,4 +14,4 @@ cloud:
       - id: eureka-provider
         uri: http://localhost:8000/
         predicates:
-          -Path:/goos/**
+        - Path=/goos/**
