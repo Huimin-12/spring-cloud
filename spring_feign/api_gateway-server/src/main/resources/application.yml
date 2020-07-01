@@ -5,6 +5,7 @@ spring:
   application:
     name: api-gateway-server
 
+
 cloud:
     # 路由配置
   gateway:
