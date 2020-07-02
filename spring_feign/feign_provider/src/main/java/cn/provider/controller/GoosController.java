@@ -23,7 +23,8 @@ public class GoosController {
 
     @GetMapping("/findOne/{id}")
     @HystrixCommand(fallbackMethod = "findOneById_fall")
-    public Goos findOneById(@PathVariable int id){
+    public Goos findOneById(@PathVariable int id,String username){
+        System.out.println(username);
         if (id==1){
             int i = 3/0;
         }
@@ -42,7 +43,7 @@ public class GoosController {
         1、出异常
         2、连接超时
      */
-    public Goos findOneById_fall(int id){
+    public Goos findOneById_fall(int id,String username){
         Goos goos = new Goos();
         goos.setName("服务方降级了~~~");
         return goos;

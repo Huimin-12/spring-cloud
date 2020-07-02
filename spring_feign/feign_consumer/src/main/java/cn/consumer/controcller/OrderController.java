@@ -16,6 +16,7 @@ public class OrderController {
     private GoosFeignClient goosFeignClient;
     @GetMapping("/findOrder/{id}")
     public Goos findOrderById(@PathVariable("id") int id){
+
         Goos goos = goosFeignClient.findOneById(id);
         return goos;
     }

@@ -13,17 +13,24 @@ cloud:
     routes:
       - id: eureka-provider
         #静态获取路由
-        #uri:http://localhost:8000/
+        #uri: http://localhost:8000/
         #动态获取路由
-        uri: lb//EUREKA-PROVIDER
+        uri: lb://eureka-provider
         predicates:
-        - Path=/goos/**
+         - Path=/goos/**
+        filters:
+        - AddRequestParameter=username,zhangsan
 
       - id: eureka-consumer
-          uri: lb//EUREKA-CONSUMER
-          predicates:
-            - Path=/order/**
+        uri: lb://EUREKA-CONSUMER
+        predicates:
+         - Path=/order/**
 
+
+  discovery:
+    locator:
+     enabled: true # 开启微服发现功能
+     lower-case-service-id: true # 讲请求路径上的服务名配置为小写
 
 eureka:
   client:
