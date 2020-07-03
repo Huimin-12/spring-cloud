@@ -4,8 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/Spring_cloud_parent.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/Spring_cloud_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_feign/api_gateway-server/api_gateway-server.iml" filepath="$PROJECT_DIR$/spring_feign/api_gateway-server/api_gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-consumer/config-consumer.iml" filepath="$PROJECT_DIR$/config-parent/config-consumer/config-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-parent.iml" filepath="$PROJECT_DIR$/config-parent/config-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-provider/config-provider.iml" filepath="$PROJECT_DIR$/config-parent/config-provider/config-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-parent/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_consumer/eureake_consumer.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureake_consumer/eureake_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureake_provider/eureake_provider.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureake_provider/eureake_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-parent/eureka-server-config/eureka-server-config.iml" filepath="$PROJECT_DIR$/config-parent/eureka-server-config/eureka-server-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server1/eureka_server1.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureka_server1/eureka_server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_cloud_parent/eureka_server2/eureka_server2.iml" filepath="$PROJECT_DIR$/Spring_cloud_parent/eureka_server2/eureka_server2.iml" />

@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/Spring_cloud_parent/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_cloud_parent/eureka_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/config-parent/pom.xml" />
       </list>
     </option>
   </component>

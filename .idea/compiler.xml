@@ -6,24 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="feign_server" />
+        <module name="eureka_consumer" />
         <module name="eureka_server2" />
+        <module name="eureka_server1" />
+        <module name="config-consumer" />
+        <module name="config-provider" />
+        <module name="eureake_provider" />
+        <module name="eureka-server-config" />
+        <module name="api_gateway-server" />
         <module name="eureka_server" />
         <module name="spring_feign1" />
-        <module name="eureake_consumer" />
-        <module name="eureka_server1" />
-        <module name="eureka_provider" />
-        <module name="feign_server" />
-        <module name="eureake_provider" />
-        <module name="feign_provider" />
-        <module name="eureka_consumer" />
         <module name="feign_consumer" />
-        <module name="api_gateway-server" />
+        <module name="eureake_consumer" />
+        <module name="feign_provider" />
+        <module name="eureka_provider" />
+        <module name="config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api_gateway-server" target="1.8" />
+      <module name="config-consumer" target="1.8" />
+      <module name="config-parent" target="1.8" />
+      <module name="config-provider" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureake_consumer" target="1.8" />
       <module name="eureake_provider" target="1.8" />
+      <module name="eureka-server-config" target="1.8" />
       <module name="eureka_consumer" target="1.8" />
       <module name="eureka_provider" target="1.8" />
       <module name="eureka_server" target="1.8" />
@@ -40,8 +49,12 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api_gateway-server" options="-parameters" />
+      <module name="config-consumer" options="-parameters" />
+      <module name="config-provider" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureake_consumer" options="-parameters" />
       <module name="eureake_provider" options="-parameters" />
+      <module name="eureka-server-config" options="-parameters" />
       <module name="eureka_consumer" options="-parameters" />
       <module name="eureka_provider" options="-parameters" />
       <module name="eureka_server" options="-parameters" />

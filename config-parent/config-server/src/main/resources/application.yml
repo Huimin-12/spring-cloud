@@ -1,0 +1,14 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: config-server
+    #spring cloud config 的配置
+  cloud:
+    config:
+      server:
+        #git的远程仓库的地址
+        git:
+          uri: https://github.com/Huimin-12/Quartzdemo.git
+      lable: master #分支配置
