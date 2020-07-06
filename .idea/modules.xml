@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring_feign/feign_consumer/feign_consumer.iml" filepath="$PROJECT_DIR$/spring_feign/feign_consumer/feign_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_feign/feign_provider/feign_provider.iml" filepath="$PROJECT_DIR$/spring_feign/feign_provider/feign_provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_feign/feign_server/feign_server.iml" filepath="$PROJECT_DIR$/spring_feign/feign_server/feign_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_feign/spring_feign.iml" filepath="$PROJECT_DIR$/spring_feign/spring_feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_feign/spring_feign1.iml" filepath="$PROJECT_DIR$/spring_feign/spring_feign1.iml" />
     </modules>
