@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/order")
 public class OrderController {
@@ -32,6 +31,7 @@ public class OrderController {
            2、注入Bean
            3、调用方法
          */
+        
         /*
         动态的获取 provider 的ip 跟 端口
         注入 DiscoveryClient ,
