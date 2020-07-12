@@ -31,7 +31,6 @@ public class OrderController {
            2、注入Bean
            3、调用方法
          */
-        
         /*
         动态的获取 provider 的ip 跟 端口
         注入 DiscoveryClient ,
@@ -56,6 +55,7 @@ public class OrderController {
     }
     @GetMapping("/findOrder2/{id}")
     public Goos findOrderById2(@PathVariable("id") int id){
+   
         System.out.println("findOrderById22222222,,,被访问");
         /*  远程调用Goos服务方方法 findOne
            使用 RestTemplate
